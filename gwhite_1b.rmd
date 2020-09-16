@@ -1,0 +1,26 @@
+---
+title: "Exercise 1b"
+author: "Griffin White"
+date: "9/16/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# First we sample the distribution:
+```{r generate_data, echo=TRUE}
+observations = rlnorm(100, meanlog = 1, sdlog = 0.25)
+```
+
+# Summary of observations:
+```{r observations, echo=TRUE}
+mean(observations)
+var(observations)
+```
+
+# Now to plot:
+```{r histogram, echo=FALSE}
+hist(observations, breaks = 15)
+```
