@@ -14,4 +14,4 @@
 be a good project for the project portion of this class? There is certainly plenty of work  
 that could be done to both improve, optimize and validate the performance of it.
 
-Let me know [here]() if you'd like! Thank you!
+Let me know [here](griffin.white@uzh.ch) if you'd like! Thank you!
